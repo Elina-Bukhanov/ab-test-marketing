@@ -1,5 +1,7 @@
 # ab-test-marketing
 # A/B Test Project
+## Contents
+- [Hypotheses and Explanations](Hypotheses_and_Explanations.md): Detailed hypotheses related to RPM, RPS, and overall revenue.
 
 ## Overview
 
