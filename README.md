@@ -1,7 +1,6 @@
 # ab-test-marketing
 # A/B Test Project
 ## Contents
-- [RICE Score for Hypothesis Choosing](Hypothesis List and RICE Score for Optimal Layout AB Test.xlsx)
 - [Hypotheses and Explanations](Hypotheses_and_Explanations.md): Detailed hypotheses related to RPM, RPS, and overall revenue.
 
 ## Overview
