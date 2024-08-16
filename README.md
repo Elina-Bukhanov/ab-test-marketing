@@ -40,6 +40,50 @@ The dataset includes:
 - **Paid Clicks**: The number of clicks on paid advertisement elements.
 - **Organic Clicks**: The number of clicks on organic content elements.
 
+## Exploratory Data Analysis (EDA)
+
+In this project, Exploratory Data Analysis (EDA) is conducted to understand the performance metrics and to validate the effectiveness of different experimental groups. The key objectives of the EDA are:
+
+1. **Metrics Calculation**:
+   - **RPM (Revenue per Mile)**: Calculated as `(revenue / pageviews) * 1000`.
+   - **RPS (Revenue per Session)**: Calculated as `revenue / sessions`.
+   - **CTR (Click-Through Rate)**: Calculated as `sponsord_clicks / pageviews`.
+   - **Paid CTR (Paid Click-Through Rate)**: Calculated as `sponsord_clicks / (sponsord_clicks + organic_clicks)`.
+
+2. **Data Cleaning**:
+   - Column names were stripped of leading and trailing spaces.
+   - Object columns were converted to numeric types where applicable.
+
+3. **Unique Key Generation**:
+   - A unique key was created for each row using the combination of `date`, `publisher_id`, `platform`, and `group_name` to ensure no key overlap between groups.
+
+4. **Statistics per Group**:
+   - Descriptive statistics (mean, median, standard deviation) were computed for each metric within different groups to understand their central tendency and variability.
+
+5. **Distribution Analysis**:
+   - The distribution of key metrics across different groups was analyzed to understand the spread and central tendencies. This includes examining histograms and density plots to visualize how metrics vary within and between groups.
+
+6. **Boxplots**:
+   - Boxplots were created for numerical metrics to compare their distributions across different groups. This helps identify outliers and variations in metrics.
+     
+7. **Correlation Analysis**:
+   - A correlation matrix was created to explore relationships between numerical features.
+
+8. **Trend Analysis**:
+   - Time series plots were generated to analyze trends in `revenue`, `rps`, and `rpm` over time.
+     
+9. **Pivot Tables**:
+   - Pivot tables were created to summarize metrics by `date` and `group_name`.
+
+### EDA Documentation
+
+The details of the EDA, including the calculations and visualizations, are documented in the Jupyter Notebook file located in this repository:
+
+- [EDA Analysis Notebook]((https://github.com/Elina-Bukhanov/ab-test-marketing/blob/main/EDA.ipynb))
+
+Feel free to review the notebook for a comprehensive analysis and visual representations of the data. Any findings and insights derived from this analysis are intended to help understand performance metrics and the impact of various factors on the results.
+
+
 ## Business Impact
 
 The results of this test will inform the optimal layout of paid and organic content in the feed to maximize revenue and improve user engagement, leading to increased profitability for publishers.
