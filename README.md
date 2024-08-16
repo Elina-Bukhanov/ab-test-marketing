@@ -79,7 +79,7 @@ In this project, Exploratory Data Analysis (EDA) is conducted to understand the 
 
 The details of the EDA, including the calculations and visualizations, are documented in the Jupyter Notebook file located in this repository:
 
-- [EDA Analysis Notebook]((https://github.com/Elina-Bukhanov/ab-test-marketing/blob/main/EDA.ipynb))
+- [EDA Analysis Notebook](https://github.com/Elina-Bukhanov/ab-test-marketing/blob/main/EDA.ipynb)
 
 Feel free to review the notebook for a comprehensive analysis and visual representations of the data. Any findings and insights derived from this analysis are intended to help understand performance metrics and the impact of various factors on the results.
 
