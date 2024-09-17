@@ -83,6 +83,17 @@ The details of the EDA, including the calculations and visualizations, are docum
 
 Feel free to review the notebook for a comprehensive analysis and visual representations of the data. Any findings and insights derived from this analysis are intended to help understand performance metrics and the impact of various factors on the results.
 
+## Statistical Analysis
+
+### Mann-Whitney U Test
+
+For comparing non-normally distributed KPIs between two independent groups, we used the Mann-Whitney U test. This non-parametric test is suitable for assessing whether there is a significant difference between the distributions of two groups without assuming a normal distribution.
+
+### Bootstrap Resampling
+
+To further analyze the differences between groups, we employed a bootstrap resampling technique. This method estimates the distribution of the difference in means by repeatedly resampling with replacement from the combined data of both groups. It provides an empirical p-value to assess the statistical significance of the observed difference.
+
+Both the Mann-Whitney U test and the bootstrap method were used to evaluate KPIs such as revenue, RPS, and RPM, ensuring robust and reliable results in our analysis.
 
 ## Business Impact
 
